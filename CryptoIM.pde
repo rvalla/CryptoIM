@@ -10,7 +10,7 @@ Variables globales
 */
 
 //Acá se puede elegir la imagen cambiando el nombre ("nombre.jpg")
-String imagenElegida = new String("Banco-14.jpg");
+String selectedImage = new String("Banco-01.jpg");
 String inputFolder = new String("Input/");
 String outputFolder = new String("Output/");
 
@@ -18,7 +18,7 @@ String outputFolder = new String("Output/");
 El programa todavía no anda bien. Entre los que se pueden usar están:
 107, 
 */
-int abracadabra = 4;
+int abracadabra = 132;
 
 /////////////////
 PImage imagenBase;
@@ -36,13 +36,14 @@ Tools t;
   size(911, 607);
   t = new Tools();
 
-  imagenBase = loadImage(inputFolder + imagenElegida);
-  imagenAuxiliar = loadImage(inputFolder + imagenElegida);
+  imagenBase = loadImage(inputFolder + selectedImage);
+  imagenAuxiliar = loadImage(inputFolder + selectedImage);
+  imagenAlterada = loadImage(inputFolder + selectedImage);
   ibWidth = imagenBase.width;
   ibHeight = imagenBase.height;
   imagenBase.resize(width, height);
   imagenAuxiliar.resize(width, height);
-  imagenAlterada = createImage(width, height, RGB);
+  imagenAlterada.resize(width, height);
   pixelCount = imagenBase.pixels.length;
   
   
