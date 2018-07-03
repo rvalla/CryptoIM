@@ -9,16 +9,17 @@
 Variables globales
 */
 
+////////////////////////////////////////////////////////////////////
 //Acá se puede elegir la imagen cambiando el nombre ("nombre.jpg")
-String selectedImage = new String("Banco-01.jpg");
-String inputFolder = new String("Input/");
+String selectedImage = new String("18_44_0001.jpg");
+String inputFolder = new String("Output/");
 String outputFolder = new String("Output/");
+////////////////////////////////////////////////////////////////////
 
-/*Acá tienen que elegir el número mágico (¡No puede ser cualquiera!)
-El programa todavía no anda bien. Entre los que se pueden usar están:
-107, 
-*/
-int abracadabra = 132;
+////////////////////////////////////////////////////////////////////
+//Acá tienen que elegir el número mágico (¡No puede ser cualquiera!)
+int abracadabra = 1009;
+////////////////////////////////////////////////////////////////////
 
 /////////////////
 PImage imagenBase;
