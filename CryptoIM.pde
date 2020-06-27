@@ -11,14 +11,14 @@ Variables globales
 
 ////////////////////////////////////////////////////////////////////
 //Acá se puede elegir la imagen cambiando el nombre ("nombre.jpg")
-String selectedImage = new String("Im_Cifrar_12.jpg");
+String selectedImage = new String("Banco-01.jpg");
 String inputFolder = new String("Input/");
 String outputFolder = new String("Output/");
 ////////////////////////////////////////////////////////////////////
 
 ////////////////////////////////////////////////////////////////////
 //Acá tienen que elegir el número mágico (¡No puede ser cualquiera!)
-int abracadabra = 60;
+int abracadabra = 1721;
 ////////////////////////////////////////////////////////////////////
 
 /////////////////
@@ -34,7 +34,7 @@ Tools t;
   
   void setup() {
   //Es mejor que ancho y alto de la ventana sean números primos
-  size(911, 607);
+  size(1600, 1066);
   t = new Tools();
 
   imagenBase = loadImage(inputFolder + selectedImage);
