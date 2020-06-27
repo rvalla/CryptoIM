@@ -1,5 +1,4 @@
-This software is open-sourced and is licensed under **GNU GPL v3**. You can use and modify it freely.
-
+This software is open-sourced and is licensed under **GNU GPL v3**. You can use and modify it freely.  
 I am curious and I would like to know if you find errors in the code or just
 have questions about its algorithms. Perhaps you make wonderful adaptations.
 Contact me at [rodrigovalla[at]yahoo.com.ar](mailto:rodrigovalla@yahoo.com.ar).
