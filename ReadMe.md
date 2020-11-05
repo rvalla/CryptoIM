@@ -1,4 +1,4 @@
-![Icon](https://gitlab.com/rodrigovalla/cryptoim/-/raw/master/img/icon64x64.png)
+![Icon](https://gitlab.com/rodrigovalla/cryptoim/-/raw/master/img/Icon64x64.png)
 # CryptoIM
 
 **CryptoIM** is a little software written in [Processing](https://processing.org) to
